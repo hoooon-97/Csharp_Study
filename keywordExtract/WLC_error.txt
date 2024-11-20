@@ -1,0 +1,11 @@
+172.30.109.72, Unknown Model:
+  === Oct 27 === 04:06:33  K RNEL(FC_YEO1_2F_CAP-01@172.30.109.127): [5545606.949435] WAL_DBGID_XCESS_FAILURES AID: 2 MAC[26:4d:24:66:05:44] flags[201003], fail count=150 (발생횟수: 1회)
+
+172.30.232.198, Unknown Model:
+  === Nov 10 === 18:19:48  K RNEL(FC_KKW1_SecAP#1@172.30.232.130): [94823003.481743] WAL_DBGID_XCESS_FAILURES AID: 1 MAC[ce:94:cd:89:24:0a] flags[2219003], fail count=150 (발생횟수: 1회)
+
+
+=== 통계 정보 ===
+전체 장비 수: 54대
+장애 발생 장비 수: 2대
+장애 발생률: 3.7%
