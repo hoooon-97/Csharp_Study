@@ -11,11 +11,9 @@ def get_device_info(filename):
         with open(filename, 'r', encoding='utf-8') as f:
             reading_inventory = False
             for line in f:
-                # Hostname 찾기 - hostname 명령어 출력 확인
                 if "hostname" in line.lower():
                     hostname = line.split()[1]
                     continue
-                
                 # PID 찾기
                 if "show inventory" in line:
                     reading_inventory = True
@@ -35,7 +33,14 @@ def get_device_info(filename):
     
     return model, hostname
 
-
+# 찾고 싶은 키워드 입력 현재 "limited space" --> flash 용량 확인 하는 키워드
+# 키워드가 아닌 명령어로도 검색 가능 "" 안에만 입력되면 공백도 가능
+# ex) "show int status"
+# 특정 일 이후부터 추출을 원할 경우 
+# start_month, start_day 부분 수정하면 됨 
+# 현재 2024-10-15 일 이후로 키워드 추출됨 
+# 로그 파일에 년도가 출력된다면 해당 년도만 추출되지만
+# 로그에 년도가 출력되지 않는다면 전년도 로그 추출도 가능하기에 주의 필요
 def filter_logs(file_path, start_month='Oct', start_day=15):
     error_keywords = [
         "limited space"
@@ -150,6 +155,10 @@ def process_directory(directory_path, output_file='filtered_errors.log'):
         print(f"장애 발생 장비 수: 0대")
         print(f"장애 발생률: 0.0%")
 
+# 함수 실행 부분
+# directory_path 에 로그파일이 존재하는 경로 입력
+# output_file 은 추출한 결과를 저장할 파일 이름 
+# 추출된 파일은 현재 파일과 동일 경로에 저장됨. 특정 경로 지정을 원한다면 코드 수정 필요
 if __name__ == "__main__":
     directory_path = "/Users/parksanghun/Library/CloudStorage/OneDrive-Ringnet/2. Coupang/8. FC_CAMP Maintainance/2024-11/FC/L2"
     output_file = "L2_error.txt"
