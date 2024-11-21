@@ -1,8 +1,0 @@
-172.30.119.3, WS-C3850-24S-S, Licensing:
-  === Nov 8 === 05:28:49.02 KST: %PLATFORM-4-ELEMENT_WARNING: Switch 1 R0/0: smand: 1/RP/0: limited space - copy files out of flash: directory. flash: value 95% (1504 MB) exceeds warning level 70% (1110 MB). (발생횟수: 1회)
-
-
-=== 통계 정보 ===
-전체 장비 수: 135대
-장애 발생 장비 수: 1대
-장애 발생률: 0.7%
