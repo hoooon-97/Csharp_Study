@@ -9,6 +9,7 @@
 #define PORT 12345         // 서버가 사용할 포트 번호
 #define BUFFER_SIZE 1024   // 메시지 버퍼 크기
 
+
 int main() {
     // 소켓 생성
     int serverSocket = socket(AF_INET,     // IPv4 프로토콜
