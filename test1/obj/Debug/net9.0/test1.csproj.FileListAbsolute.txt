@@ -1,0 +1,15 @@
+/Users/parksanghun/Documents/GitHub/Csharp_Study/test1/bin/Debug/net9.0/test1
+/Users/parksanghun/Documents/GitHub/Csharp_Study/test1/bin/Debug/net9.0/test1.deps.json
+/Users/parksanghun/Documents/GitHub/Csharp_Study/test1/bin/Debug/net9.0/test1.runtimeconfig.json
+/Users/parksanghun/Documents/GitHub/Csharp_Study/test1/bin/Debug/net9.0/test1.dll
+/Users/parksanghun/Documents/GitHub/Csharp_Study/test1/bin/Debug/net9.0/test1.pdb
+/Users/parksanghun/Documents/GitHub/Csharp_Study/test1/obj/Debug/net9.0/test1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/parksanghun/Documents/GitHub/Csharp_Study/test1/obj/Debug/net9.0/test1.AssemblyInfoInputs.cache
+/Users/parksanghun/Documents/GitHub/Csharp_Study/test1/obj/Debug/net9.0/test1.AssemblyInfo.cs
+/Users/parksanghun/Documents/GitHub/Csharp_Study/test1/obj/Debug/net9.0/test1.csproj.CoreCompileInputs.cache
+/Users/parksanghun/Documents/GitHub/Csharp_Study/test1/obj/Debug/net9.0/test1.sourcelink.json
+/Users/parksanghun/Documents/GitHub/Csharp_Study/test1/obj/Debug/net9.0/test1.dll
+/Users/parksanghun/Documents/GitHub/Csharp_Study/test1/obj/Debug/net9.0/refint/test1.dll
+/Users/parksanghun/Documents/GitHub/Csharp_Study/test1/obj/Debug/net9.0/test1.pdb
+/Users/parksanghun/Documents/GitHub/Csharp_Study/test1/obj/Debug/net9.0/test1.genruntimeconfig.cache
+/Users/parksanghun/Documents/GitHub/Csharp_Study/test1/obj/Debug/net9.0/ref/test1.dll
